@@ -1,0 +1,26 @@
+/* src/index.css */
+
+/* Poppins font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34; /* Fallback background */
+  color: white;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Horizontal scrollbar se bachne ke liye */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Global box-sizing */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
